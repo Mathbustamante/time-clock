@@ -1,0 +1,619 @@
+<% include ./partials/header%>
+<div class="ui main text container segment">
+    <div class="ui huge header newheader">Clock in!</div><hr>
+    
+    
+    
+    <div class="forms">
+        <div class="tablecontainer">
+            <form class="ui form one" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Zacchaeus Benesh"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Zacchaeus Benesh</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Spenser Dawdy"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Spenser Dawdy</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Alli Marks"){ %>
+                              <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Alli Marks</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Amanda Reichert"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Amanda Reichert</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Joseph Sanford"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                            
+                                    <input type="image" name="worker[image]" id="image" value="<%= worker.Image %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Joseph Sanford</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Jeffrey Vanderhart"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Jeffrey Vanderhart</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Matheus Bustamante"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="ui small rounded image">
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Matheus Bustamante</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Seth McRobert"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="ui small rounded image">
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Seth McRobert</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Evan Marshall"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Evan Marshall</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            
+        </div>
+        <div class="tablecontainer">
+            
+            
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Kyle Kuncl"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Kyle Kuncl</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Danylo Serednytsky"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Danylo Serednytsky</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Trev Riekenberg"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Trev Riekenberg</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Will Maynard"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Will Maynard</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Morgan McCulley"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Morgan McCulley</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Ethan Bereuter"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Ethan Bereuter</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Jacob Marshall"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Jacob Marshall</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Danielle Anderson"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Danielle Anderson</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            <form class="ui form" action="/timeclock" method="POST">
+                      <% worker.forEach(function(worker){ %>
+                            <% if(worker.name === "Alex Kerr"){ %>
+                             <div class="formhide">
+                                 <div class="field">
+                                     <label>Title</label>
+                                     <input  type="text" name="worker[name]" id="inputName" value="<%=  worker.name %>">
+                                </div>
+                                <div class="field">
+                                    <label>Hometown</label>
+                                    <input type="text" name="worker[Hometown]" id="hometown" value="<%= worker.Hometown %>" >
+                                </div>
+                                <div class="field">
+                                    <label>Major</label>
+                                    <input type="text" name="worker[Major]" id="major" value="<%= worker.Major %>">
+                                </div>
+                                <div class="field">
+                                    <label>Involved In</label>
+                                    <input type="text" name="worker[InvolvedIn]" id="involvedin" value="<%= worker.InvolvedIn %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[FunFact]" id="funfact" value="<%= worker.FunFact %>">
+                                </div>
+                                <div class="field">
+                                    <label>Fun Fact</label>
+                                    <input type="text" name="worker[image]" id="image" value="<%= worker.image %>">
+                                </div>
+                            </div>  
+                          <button class="medium ui button">Alex Kerr</button>
+                          <% } %>
+                  <% }); %>
+            </form>
+            
+            
+            
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/stylesheets/jQuery.js"></script>
+<% include ./partials/footer%>

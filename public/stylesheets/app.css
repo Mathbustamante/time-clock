@@ -1,0 +1,215 @@
+body {
+	zoom: 75%;
+	 display: inline;
+
+ 
+	margin-top: 85px;
+
+
+	font-family: 'Libre Franklin', sans-serif;
+	background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.ui.fixed.inverted.menu{
+	height: 60px;
+	font-size: 1.2em;
+}
+
+h1 {
+	color: #2c3e50;
+	font-size: 4.0rem;
+	font-family: 'Libre Franklin', sans-serif;
+
+	padding: 40px;
+
+}
+
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.post {
+	margin-bottom: 20px;
+	
+}
+
+.profile {
+	padding: 20px;
+}
+
+.ui.attached.segment {
+	width: 620px;
+	
+}
+
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.headername{
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.box-information{
+	padding-top: 80px;
+}
+
+
+.informationContent{
+	
+	font-size: 22px;
+	font-weight: 500;
+	background-color: white;
+	padding: 30px;
+	float:left; 
+	display:inline;
+	max-width: 600px;
+	height: 900px;
+	width: 100%;
+
+	border: 1px solid #515E64;
+}
+
+.img1{
+	width: 100px;
+	height: 200px;
+}
+
+.image{
+
+}
+
+.contentSegment{
+	width: 100%;
+}
+
+
+
+.bottomInfo{
+	font-weight: 500;
+	text-align: center;
+	font-size: 29px;
+	margin-top: 10px;
+}
+
+.bottomcontact{
+	font-size: 25px;
+	margin: 0;
+	width: 100%;
+}
+
+.contactinfo{
+	
+	font-size: 18px;
+}
+
+.formhide{
+	display: none;
+}
+
+.ui.huge.header.returnby {
+  
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    margin: 120px auto;
+    font-weight: normal;
+}
+
+.bottomImages{
+	padding: 40px;
+	
+}
+
+hr {
+	width: 550px;
+	border-top: 1px solid #1B1C1D;
+	border-bottom: 1px solid rga(0, 0, 0, 0.1); 
+}
+
+h1 {
+	padding-top: 10px;
+}
+
+
+
+.tablecontainer{
+	width: 50%;
+	padding-left: 55px; 
+	margin-top: 0;
+	float: left;
+    display: inline;
+}
+
+
+.ui.main.container{
+    height: 95%;
+	padding-bottom: 20px;
+	
+}
+
+.ui.huge.header.returnby{
+	
+	width: 100%;
+	text-align: center;
+	font-size: 55px;
+	margin: 120px auto;
+	font-weight: normal;
+}
+
+.second-header{
+	font-weight: 600;
+	font-size: 23px;
+	margin: 0px auto;
+	padding-top: 23px;
+	
+	
+}
+.timeInput{
+	margin: 20px auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.Welcome{
+
+	font-size: 100px;
+}
+
+.tablecontainer2{
+	float:left; 
+	display:inline;
+}
+
+.bottomInfo{
+
+	font-size: 23px;
+}
+
+ /*CLOCK*/
+#clock {
+	
+	margin: 0 auto;
+	text-align: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    
+}

@@ -1,0 +1,20 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+    <div class="ui huge header"><%= worker.name %></div>
+    <div class="ui top attached ">
+        <div class="item">
+            
+            <div class="description">
+                <p><%- worker.body %></p>
+            </div>
+            
+            
+            <form id="delete" action="/timeclock/<%= worker._id %>?_method=DELETE" method="POST">
+                <button class="massive ui red  button">Clock Out</button>
+            </form>
+        </div>
+    </div>
+    
+</div>
+<% include ./partials/footer %>
+

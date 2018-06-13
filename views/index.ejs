@@ -1,0 +1,41 @@
+<% include ./partials/header%>
+<div class = "container2">
+    <div class="box-Information">
+   
+        <div class="box-data">
+            <center><h1>How can I help you?</h1></center> 
+            <% person.forEach(function(worker){ %>
+                
+                <div class="informationContent">
+
+                    <div class="contentSegment">
+                         <a class="headername" href="/timeclock/<%= worker._id %>"><%=worker.name%></a>
+                       
+                         <div class="description">
+                             <p></p><strong>Hometown: </strong> <%- worker.Hometown %></p>
+                         </div>
+                         <div class="description">
+                             <p><strong>Major: </strong><%- worker.Major %></p>
+                         </div>
+                         <div class="description">
+                             <p><strong>Involved In: </strong><%- worker.InvolvedIn %></p>
+                         </div>
+                         <div class="description">
+                             <p><strong>Fun Fact: </strong><%- worker.FunFact %></p>
+                         </div>
+                         
+                            <img src="<%= worker.image %>" style=" max-width: 450px;max-height: 600px; margin-top: 30px; " >
+                     
+                         
+                    </div>
+                </div>
+            <% }); %>
+       </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/stylesheets/jQuery.js"></script>
+<% include ./partials/footer%>
