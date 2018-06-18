@@ -59,7 +59,7 @@ h1 {
 }
 
 .headername{
-	font-size: 35px;
+	font-size: 2rem;
 	font-weight: bolder;
 }
 
@@ -70,8 +70,8 @@ h1 {
 
 
 .informationContent{
-	zoom: 50%;
-	font-size: 22px;
+	zoom: 70%;
+	
 	font-weight: 500;
 	background-color: white;
 	padding: 30px;
