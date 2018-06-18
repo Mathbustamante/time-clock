@@ -68,10 +68,12 @@ h1 {
 	margin: 0 auto;
 }
 
-
+.box-information strong{
+	font-size: 15px;
+}
 
 .description p{
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .informationContent{
@@ -127,12 +129,12 @@ h1 {
 }
 
 .ui.huge.header.returnby {
-  
+  	zoom: 70%;
     padding-top: 40px;
     width: 100%;
     text-align: center;
     font-size: 55px;
-    margin: 120px auto;
+    margin: 300px auto;
     font-weight: normal;
 }
 
@@ -162,8 +164,8 @@ h1 {
 }
 
 .ui.main{
-	margin-top: 6%;
-	zoom: 60%;
+	margin-top: 5%;
+	
 }
 
 
