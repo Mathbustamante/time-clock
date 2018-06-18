@@ -59,7 +59,7 @@ h1 {
 }
 
 .headername{
-	font-size: 2rem;
+	font-size: 1.7rem;
 	font-weight: bolder;
 }
 
@@ -68,6 +68,9 @@ h1 {
 	margin: 0 auto;
 }
 
+.box-information strong{
+	font-size: 1.5rem;
+}
 
 .informationContent{
 	zoom: 70%;
