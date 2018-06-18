@@ -69,11 +69,15 @@ h1 {
 }
 
 .box-information strong{
-	font-size: 13px;
+	font-size: 15px;
+}
+
+.description p{
+	font-size: 14px;
 }
 
 .informationContent{
-	zoom: 70%;
+	zoom: 80%;
 	
 	font-weight: 500;
 	background-color: white;
@@ -157,6 +161,11 @@ h1 {
 	margin-top: 0;
 	float: left;
     display: inline;
+}
+
+.ui.main{
+	margin-top: 6%;
+	zoom: 70%;
 }
 
 
