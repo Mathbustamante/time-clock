@@ -1,5 +1,5 @@
 body {
-	zoom: 55%;
+	zoom: 75%;
 	 display: inline;
 
  
@@ -70,7 +70,7 @@ h1 {
 
 
 .informationContent{
-	
+	zoom: 50%;
 	font-size: 22px;
 	font-weight: 500;
 	background-color: white;
