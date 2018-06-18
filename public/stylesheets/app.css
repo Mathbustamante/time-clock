@@ -68,12 +68,10 @@ h1 {
 	margin: 0 auto;
 }
 
-.box-information strong{
-	font-size: 15px;
-}
+
 
 .description p{
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .informationContent{
@@ -165,7 +163,7 @@ h1 {
 
 .ui.main{
 	margin-top: 6%;
-	zoom: 70%;
+	zoom: 60%;
 }
 
 
