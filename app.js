@@ -122,13 +122,10 @@ app.delete("/timeclock/:id", function(req, res){
 
 
 
-// app.listen(3000, function(){
-// 	console.log("Server has started on port 3000");
-// });
-
-app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("it_forum server is running!!");
+app.listen(3000, function(){
+	console.log("Server has started on port 3000");
 });
+
 
 
 
